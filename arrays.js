@@ -1,6 +1,6 @@
 //is an array containing "snickers", "hundred grand", "kitkat", and "skittles"
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
-//
+//adds an element to the beginning of an array, does not alter the original array
 function addElementToBeginningOfArray(array, element) {
   return [element, ...array]
 };
