@@ -18,16 +18,16 @@ function destructivelyAddElementToEndOfArray(array, element) {
   array.push(element)
   return array
 };
-//
+//accesses the element in array at the given index
 function accessElementInArray(array, index) {
   return array[index]
 };
-//
+//returns the array with the first element removed, alters the original array
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift()
   return array
 };
-//
+//removes the first element from the array, 
 function removeElementFromBeginningOfArray(array) {
   return array.slice(1)
 };
