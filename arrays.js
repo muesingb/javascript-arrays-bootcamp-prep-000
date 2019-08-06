@@ -27,16 +27,16 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift()
   return array
 };
-//removes the first element from the array, 
+//removes the first element from the array, does not alter the original array
 function removeElementFromBeginningOfArray(array) {
   return array.slice(1)
 };
-//
+//returns the array with the last element removed, alters the original array
 function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop()
   return array
 };
-//
+//removes the last element from the array, does not alter the original array
 function removeElementFromEndOfArray(array) {
   return array.slice(0, array.length - 1)
 };
